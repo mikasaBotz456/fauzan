@@ -7,5 +7,5 @@
  */
  var monospace = '```'
 exports.virtexfax = (prefix, l) => {
-	return bocil piltek anjg
+	return 😩😩😩😩
 	}
