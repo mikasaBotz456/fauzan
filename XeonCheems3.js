@@ -6973,7 +6973,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
 					            	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 					//YouTube📍 by xeon⛔\\
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @fauzann.`)
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					XeonBotInc.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
