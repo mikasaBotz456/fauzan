@@ -3691,7 +3691,7 @@ delete kuismath[m.sender.split('@')[0]]
 }
 }
 break
-case 'delete': case 'del': {
+case 'delete': case 'del': case 'd': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return
