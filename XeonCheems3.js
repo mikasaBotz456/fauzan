@@ -6715,10 +6715,10 @@ case 'image': {
                 XeonBotInc.sendMessage(m.chat, { image: { url: result }, caption: ` ${themeemoji} Media Url : `+result }, { quoted: m })
             }
             break
-case 'swm': case 'take': case 'stickerwm': {
+case 'swm': case 'colong': case 'stickerwm': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-if (!args.join(" ")) return reply(`Example :\nswm ${global.author}|${global.packname}`)
+if (!args.join(" ")) return reply(`Example :\ncolong ${global.author}|${global.packname}`)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
@@ -8940,7 +8940,7 @@ break
                         },
                     }
                     let buttons = [
-                        { buttonId: 'leave', buttonText: { displayText: 'Stop 🛑' }, type: 1 }
+                        { buttonId: 'leave', buttonText: { displayText: 'Stop ??' }, type: 1 }
                     ]
                     await XeonBotInc.sendButtonText(m.chat, buttons, `\`\`\`Please Wait, Looking For A Partner\`\`\``, XeonBotInc.user.name, m)
                 }
