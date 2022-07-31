@@ -1674,7 +1674,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Donasi Lah,Pake Follow juga Boleh",
+title:"Donasi Lah Sayangg",
 body: "Click to Instagram", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
