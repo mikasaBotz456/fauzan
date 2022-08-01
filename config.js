@@ -41,7 +41,7 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['6281365681189'] //ur owner number
+global.owner = ['6281908058131'] //ur owner number
 global.ownername = "nazuaff"
 global.ytname = "DYRROTH YT" //ur yt chanel name
 global.socialm = "GitHub: Warikrr" //ur github or insta name
@@ -56,7 +56,7 @@ global.author = "Nazuaff"
 global.themeemoji = "👻"
 global.reactmoji = "🗿"
 global.ownertag = ['zan'] //ur owner tag
-global.ownernummenu = ['6281365681189'] //ur owner number in menu and all
+global.ownernummenu = ['6281908058131'] //ur owner number in menu and all
 global.watermark = "MikasaBotz" //ur watermark
 global.botscript = "https://instagram.com/arrhmdfauzan_?igshid=YmMyMTA2M2Y"
 global.linkz1 = "https://chat.whatsapp.com/KXAcnoSD5quG2V7orGth4M"
