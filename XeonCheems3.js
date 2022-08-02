@@ -5345,13 +5345,13 @@ replay("Error")
 }
 break
 case 'clearall':
-					if (!isCreator) return reply(ind.ownerb())
+					if (!isCreator) return reply(mess.owner())
 					anu = await XeonBotInc.chats.all()
 					XeonBotInc.setMaxListeners(25)
 					for (let _ of anu) {
 						XeonBotInc.deleteChat(_.jid)
 					}
-					reply(ind.clears())
+					reply(mess.clears())
 					break
 case 'volume': {
    if (isBan) return reply(mess.ban)	 			
