@@ -5353,19 +5353,7 @@ case 'clearall':
 					}
 					reply(mess.clears())
 					break
-case 'kickall':
-                    if (!isOwner) return reply(ind.ownerb())
-			if (!isGroupAdmins) return reply(ind.admin())
-			        members_id = []
-					teks = (args.length > 1) ? body.slice(8).trim() : ''
-					teks += '\n\n'
-					for (let mem of groupMembers) {
-						teks += `*😘* ${mem.jid.split('@')[0]}\n`
-						members_id.push(mem.jid)
-					}
-					mentions(teks, members_id, true)
-					XeonBotInc.groupRemove(from, members_id)
-					break
+
 case 'volume': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
