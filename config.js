@@ -101,7 +101,7 @@ global.mess = {
     group: '*Khusus Didalam Group*',
     private: '*Khusus Chat Private*',
     bot: '*Khusus Yang Jadibot*',
-    wait: '*Sabar Sayangg*',
+    wait: '*Sabar Sayangg....*',
     linkm: '*Linknya Mana Sayang?*',
     error: 'Error beb!',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
