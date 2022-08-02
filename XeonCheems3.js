@@ -10417,7 +10417,7 @@ var unicorn = await getBuffer(picak+'Convert Menu')
 await XeonBotInc.send5ButImg(from, `╔═══════✪「 CONVERT 」	
 ╠ ${prefix}toimage [reply stick]
 ╠ ${prefix}sticker [reply img|gif]
-╠ ${prefix}take [reply img|gif|stik]
+╠ ${prefix}colong [reply img|gif|stik]
 ╠ ${prefix}smeme [reply img]
 ╠ ${prefix}emojimix [moji+moji]
 ╠ ${prefix}emoji [emoji]
