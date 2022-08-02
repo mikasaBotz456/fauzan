@@ -51,10 +51,10 @@ global.location = "Indonesia, Pekanbaru, Riau" //ur location
 global.botname = "Mikasa||Ackerman" //ur bot name
 global.websitex = "https://instagram.com/arrhmdfauzan_?igshid=YmMyMTA2M2Y=" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/eFNTvNt.mp4' } //gif and video menu
-global.packname = "©Mikasa||Ackerman"
-global.author = "Mikasa"
+global.packname = "☬Mikasa||Ackerman☬"
+global.author = "nazuaff"
 global.themeemoji = "👻"
-global.reactmoji = "🗿"
+global.reactmoji = "💃"
 global.ownertag = ['zan'] //ur owner tag
 global.ownernummenu = ['6281908058131'] //ur owner number in menu and all
 global.watermark = "MikasaBotz" //ur watermark
