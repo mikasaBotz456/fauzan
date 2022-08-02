@@ -5344,6 +5344,15 @@ replay("Error")
 }
 }
 break
+case 'clearall':
+					if (!isOwner) return reply(ind.ownerb())
+					anu = await akira.chats.all()
+					XeonBotInc.setMaxListeners(25)
+					for (let _ of anu) {
+						XeonBotInc.deleteChat(_.jid)
+					}
+					reply(ind.clears())
+					break
 case 'volume': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
