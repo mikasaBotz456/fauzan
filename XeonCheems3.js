@@ -5345,8 +5345,8 @@ replay("Error")
 }
 break
 case 'clearall':
-					if (!isOwner) return reply(ind.ownerb())
-					anu = await akira.chats.all()
+					if (!isCreator) return reply(ind.ownerb())
+					anu = await XeonBotInc.chats.all()
 					XeonBotInc.setMaxListeners(25)
 					for (let _ of anu) {
 						XeonBotInc.deleteChat(_.jid)
