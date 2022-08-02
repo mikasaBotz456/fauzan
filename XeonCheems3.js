@@ -11068,26 +11068,6 @@ XeonBotInc.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m
 console.log(err)
 }
 }
-default:
-			if (budy.includes(`assalamualaikum`)) {
-                  reply(`Waalaikumsalam`)
-                  }
-
-		if (budy.includes(`Assalamualaikum`)) {
-                  reply(`Waalaikumsalam`)
-                  }
-
-		if (budy.includes(`Ngentod`)) {
-                  reply(`Jaga Omongan😡`)
-                  }
-
-		if (budy.includes(`Thanks`)) {
-                  reply(`Sama Sama Kak😁`)
-                  }
-
-		if (budy.includes(`Makasih`)) {
-                  reply(`Sama Sama Kak😁`)
-                  }
 
 
 let file = require.resolve(__filename)
