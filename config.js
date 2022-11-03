@@ -51,8 +51,8 @@ global.location = "Indonesia, Pekanbaru, Riau" //ur location
 global.botname = "Mikasa||Ackerman" //ur bot name
 global.websitex = "https://instagram.com/arrhmdfauzan_?igshid=YmMyMTA2M2Y=" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/eFNTvNt.mp4' } //gif and video menu
-global.packname = "☬Mikasa||Ackerman☬"
-global.author = "nazuaff"
+global.packname = "©Mikasa||Ackerman"
+global.author = "ig@arrhmdfauzan_"
 global.themeemoji = "👻"
 global.reactmoji = "💃"
 global.ownertag = ['zan'] //ur owner tag
